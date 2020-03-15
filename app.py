@@ -9,7 +9,7 @@ def index():
     this is a root dir of my server
     :return: str
     """
-    return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data/ <br><br> url: https://simple-flask-api1.herokuapp.com/user/_anytext_/"
+    return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data/ <br><br> url: https://simple-flask-api1.herokuapp.com/users/_anytext_/"
 
 # GET
 @app.route('/_anytext_/')
@@ -20,7 +20,7 @@ def hello_user(user):
     :return: str
     """
     return "Hello %s!" % user
-
+'''
 # GET
 @app.route('/users/user/')
 def hello_user(user):
@@ -30,7 +30,7 @@ def hello_user(user):
     :return: str
     """
     return "Hello %s!" % user
-
+'''
 # POST
 @app.route('/post_some_data/', methods=['POST'])
 def get_text_prediction():
