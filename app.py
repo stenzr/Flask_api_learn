@@ -9,7 +9,7 @@ def index():
     this is a root dir of my server
     :return: str
     """
-    return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.comgi/post_some_data/"
+    return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data/"
 
 # GET
 @app.route('/<user>/')
