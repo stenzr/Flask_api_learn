@@ -14,7 +14,7 @@ def index():
              <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data/                post a json {'text': 'something'} 
              <br><br> url: https://simple-flask-api1.herokuapp.com/users/(enter any text here)/    
              <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data_to_get_json/   
-             <br><br> url: https://simple-flask-api1.herokuapp.com/JSON/<user>/"
+             <br><br> url: https://simple-flask-api1.herokuapp.com/JSON/(enter any text here)/"
     '''
 
 
