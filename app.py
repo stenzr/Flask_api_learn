@@ -22,7 +22,7 @@ def hello_user(user):
     return "Hello %s!" % user
 
 # GET
-@app.route('/user/user/')
+@app.route('/users/user/')
 def hello_user(user):
     """
     this serves as a demo purpose
