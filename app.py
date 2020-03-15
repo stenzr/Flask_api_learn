@@ -12,7 +12,7 @@ def index():
     return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.com/post_some_data/"
 
 # GET
-@app.route('/<user>/')
+@app.route('/_anytext_/')
 def hello_user(user):
     """
     this serves as a demo purpose
