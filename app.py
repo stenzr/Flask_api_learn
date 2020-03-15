@@ -12,7 +12,7 @@ def index():
     return "This is root!!!!<br><br> url: https://simple-flask-api1.herokuapp.com/users/_anytext_/ <br><br> url: https://simple-flask-api1.herokuapp.com/api/post_some_data/"
 
 # GET
-@app.route('/users/<user>/')
+@app.route('/<user>/')
 def hello_user(user):
     """
     this serves as a demo purpose
@@ -22,7 +22,7 @@ def hello_user(user):
     return "Hello %s!" % user
 
 # POST
-@app.route('/api/post_some_data/', methods=['POST'])
+@app.route('/post_some_data/', methods=['POST'])
 def get_text_prediction():
     
     json = request.get_json()
