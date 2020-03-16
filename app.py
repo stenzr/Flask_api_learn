@@ -69,7 +69,7 @@ def get_json_as_response():
     json = request.get_json()
     #json=jsonify()
     if len(json['text']) == 0:
-        return 'error'
+        return jsonify({'text' : 'error'})
 
     return jsonify({'text' : '{}'.format(json['text'])})
     
