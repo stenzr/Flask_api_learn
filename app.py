@@ -67,10 +67,11 @@ def get_text_prediction():
 def get_json_as_response():
     
     json = request.get_json()
+    #json=jsonify()
     if len(json['text']) == 0:
         return 'error'
 
-    return jsonify({'you sent this' : '{}'.format(json['text'])})
+    return jsonify({'text' : '{}'.format(json['text'])})
     
     
 # running web app in local machine
